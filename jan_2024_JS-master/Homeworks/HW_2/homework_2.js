@@ -123,29 +123,64 @@
 
 // ---------------------------------------2.4---------------------------------------
 
-let schedul = {day: 5, task: 'do it'};
-    switch (schedul.day){
-        case 1:
-            console.log('Monday:learn JS');
-            break;
-        case 2:
-            console.log('Tuesday: learn English');
-            break;
-        case 3:
-           console.log('Wednesday: chatting with mentor');
-           break;
-        case 4:
-            console.log('Thursday: learn articles about JS');
-            break;
-        case 5:
-            console.log('Friday: practice JS');
-            break;
-        case 6:
-            console.log('Saturday: resting');
-            break;
-        case 7:
-            console.log('Sunday: meet with friends');
-            break;
-    }
+// let schedul = {day: 5, task: 'do it'};
+//     switch (schedul.day){
+//         case 1:
+//             console.log('Monday:learn JS');
+//             break;
+//         case 2:
+//             console.log('Tuesday: learn English');
+//             break;
+//         case 3:
+//            console.log('Wednesday: chatting with mentor');
+//            break;
+//         case 4:
+//             console.log('Thursday: learn articles about JS');
+//             break;
+//         case 5:
+//             console.log('Friday: practice JS');
+//             break;
+//         case 6:
+//             console.log('Saturday: resting');
+//             break;
+//         case 7:
+//             console.log('Sunday: meet with friends');
+//             break;
+//     }
 
 // ---------------------------------------2.5---------------------------------------
+
+let firstNumber = +prompt('Введіть рандомне число');
+let secondNumber = +prompt('Введіть ще раз рандомне число, не таке як перше');
+if(firstNumber < secondNumber){
+    document.write('Ваше друге число більше за перше');
+} else if (firstNumber > secondNumber){
+    document.write('Ваше перше число більше за друге');
+} else {
+    document.write('Ваші введені числа однакові. Оновіть сторінку й введіть різні цифри');
+}
+
+// ---------------------------------------2.6---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
