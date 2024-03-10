@@ -179,11 +179,41 @@
 // x = x || "default"; //призводить до false. Пуста стрічка - це значення ж false.
 // console.log(x);
 
-// я щось не сильно зрозуміла, що тут треба)
+// я щось не сильно зрозуміла, що тут треба робити)
 
 // ---------------------------------------2.7---------------------------------------
 
-
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ]
+// if (coursesAndDurationArray[0].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте JavaScript Complex триває більше 5 місяців!');
+// }
+//
+// if (coursesAndDurationArray[1].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте Java Complex триває більше 5 місяців!');
+// }
+//
+// if (coursesAndDurationArray[2].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте Python Complex триває більше 5 місяців!');
+// }
+//
+// if (coursesAndDurationArray[3].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте QA Complex триває більше 5 місяців!');
+// }
+//
+// if (coursesAndDurationArray[4].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте FullStack триває більше 5 місяців!');
+// }
+//
+// if (coursesAndDurationArray[5].monthDuration > 5) {
+//     console.log('Супер! Ви вивчаєте Frontend триває більше 5 місяців!');
+// }
 
 
 
