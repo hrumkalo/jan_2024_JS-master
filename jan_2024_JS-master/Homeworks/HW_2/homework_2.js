@@ -214,7 +214,7 @@
 // if (coursesAndDurationArray[5].monthDuration > 5) {
 //     console.log('Супер! Ви вивчаєте Frontend триває більше 5 місяців!');
 // }
-
+//
 
 
 
