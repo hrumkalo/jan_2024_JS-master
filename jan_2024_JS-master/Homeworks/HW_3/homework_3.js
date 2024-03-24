@@ -91,19 +91,16 @@
 //     {name: 'olya', age: 31, status: false},
 //     {name: 'max', age: 31, status: true}
 // ];
-
 // for (let user of users) {
 //     if (user.age > 30){
 //     console.log(user.name, '-',  user.age);
 //     }
 // }
-
 // for (let user of users) {
 //     if (user.status === true){
 //         console.log(user.name);
 //     }
 // }
-
 // for (let user of users) {
 //     if (user.status !== true){
 //         console.log(user.name);
