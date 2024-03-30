@@ -5,5 +5,5 @@ function  rectangle (a, b) {
 }
 
 rectangle(15, 3)
-document.write(rectangle(a * b));
+console.log(rectangle);
 
