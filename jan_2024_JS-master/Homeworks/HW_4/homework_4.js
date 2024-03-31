@@ -90,3 +90,78 @@
 // obj(listOfPeople);
 
 //------------------------------------------------------4/10------------------------------------------------------
+
+// let listOfNumber = [6, 4, 2, 0, -2, -4, -6];
+// function lessNumber(array){
+//     let less = array[0]; // Перший елемент масиву
+//     for (const item of array) {
+//         if (item < less) {
+//             less = item
+//         }
+//     }
+//     return less;
+// }
+// document.write(lessNumber(listOfNumber));
+
+//------------------------------------------------------4/11------------------------------------------------------
+
+// let NumberExist = [1, 2, 10];
+// function sum(arr){
+//     let sum = 0;
+//     for (const item of arr) {
+//         sum = sum + item;
+//     }
+//     return sum;
+// }
+// document.write(sum(NumberExist));
+
+//------------------------------------------------------4/12------------------------------------------------------
+// списала з консультації, бо щось не второпала
+
+// swap([11, 22, 33, 44], 1, 2)
+// let Pereprysvoinnia = swap([11, 22, 33, 44], 1, 2)
+// function swap(arr, index1, index2) {
+//     let num = arr [index1]; //дефолтна зміна, що буде дорівнювати масиву (та зміна, що буде присвоєна першому ідексу)
+//     arr[index1] = arr[index2]; //міняємо місцями
+//     arr[index2] = num;
+//     return arr; //повернути масив
+// }
+// document.write(Pereprysvoinnia); // Виведе: [11, 33, 22, 44]
+
+//------------------------------------------------------4/13------------------------------------------------------
+
+//
+// function exchange(sumUAH, currencyValues, exchangeCurrency) {
+//     if (typeof sumUAH !== 'number' || !Array.isArray(currencyValues) || currencyValues.length === 0 || typeof exchangeCurrency !== 'string') {
+//         return "Некоректні вхідні дані";
+//     }
+//
+//     // Перевірка, чи валюта для обміну валідна
+//     if (!currencyValues.includes(exchangeCurrency)) {
+//         return "Невідома валюта для обміну";
+//     }
+//
+//     // Знайти значення валюти для обміну
+//     let exchangeRate = 0;
+//     switch (exchangeCurrency) {
+//         case 'USD':
+//             exchangeRate = 0.035; // Приклад значення курсу
+//             break;
+//         case 'EUR':
+//             exchangeRate = 0.03; // Приклад значення курсу
+//             break;
+//         // Додаткові валюти можна додати сюди з відповідними значеннями курсу
+//         default:
+//             return "Невідома валюта для обміну";
+//     }
+//
+//     // Обчислення суми в обмінній валюті
+//     const exchangedSum = sumUAH * exchangeRate;
+//     return exchangedSum.toFixed(2); // Повертаємо суму з округленням до двох знаків після коми
+// }
+//
+// // Приклад використання:
+// const sumUAH = 1000; // Сума в гривнях
+// const currencyValues = ['USD', 'EUR']; // Доступні валюти для обміну
+// const exchangeCurrency = 'USD'; // Валюта для обміну
+// co
